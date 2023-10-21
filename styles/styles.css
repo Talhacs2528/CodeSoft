@@ -1,0 +1,174 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Apply some global styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* About Section Styles */
+#about {
+    background-color: aqua;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#about img {
+    max-width: 100px;
+    border-radius: 100px;
+}
+
+#about p {
+    font-size: 18px;
+}
+
+/* Skills Section Styles */
+#skills {
+    background-color: aqua;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#skills h2 {
+    font-size: 24px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Projects Section Styles */
+#projects {
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.project {
+    flex: 0 0 calc(33.3333% - 20px);
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.project p {
+    font-size: 16px;
+}
+
+/* Resume Section Styles */
+#resume {
+    background-color: pink;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#resume a {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: pink;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    #skills li {
+        margin: 5px;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .project {
+        flex: 0 0 calc(50% - 20px);
+    }
+
+    #resume a {
+        margin: 10px;
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
